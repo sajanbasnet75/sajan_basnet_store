@@ -1,0 +1,29 @@
+{%- if recommendations.performed? -%}
+  <div id="product-recommendations">
+    {%- if recommendations.products_count > 0 -%}
+      {% if recommendations.intent == 'related' %}
+        <h2>You may also like</h2>
+      {% elsif recommendations.intent == 'complementary' %}
+        <h2>Pair {{ product.title }} with</h2>
+      {% endif %}
+
+      <ul class="list-unstyled" style="padding: 10px;" role="list">
+        {%- for product in recommendations.products -%}
+          <li class="" style="margin: 10px">
+            {% render 'card-product',
+              card_product: product,
+              media_aspect_ratio: 1,
+              show_secondary_image: false,
+              lazy_load: false,
+              show_quick_add: true,
+              section_id: section.id,
+              horizontal_class: true,
+              horizontal_quick_add: true
+            %}
+          </li>
+        {%- endfor -%}
+      </ul>
+    {%- endif -%}
+  </div>
+{%- endif -%}
+

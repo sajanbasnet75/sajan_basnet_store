@@ -34,6 +34,10 @@
         role="list"
       >
         {% for recommendation in recommendations.products %}
+          <script>
+            const recoo = {{ recommendation | json }};
+            debugger
+          </script>
           <li class="grid__item">
             {% render 'card-product',
               card_product: recommendation,
