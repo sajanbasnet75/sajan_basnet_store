@@ -26,8 +26,7 @@
             "text_style": "uppercase"
           }
         },
-        "title": {
-          "type": "title",
+        "title": { "type": "title",
           "settings": {
           }
         },
