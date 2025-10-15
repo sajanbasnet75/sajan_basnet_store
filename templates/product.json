@@ -1,19 +1,19 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-product",
       "blocks": {
         "test_checkout_app_star_rating_FQQYj6": {
-          "type": "shopify:\/\/apps\/test-checkout-app\/blocks\/star_rating\/d56f2448-0fdf-40b7-b1a6-1cae7795a806",
+          "type": "shopify://apps/test-checkout-app/blocks/star_rating/d56f2448-0fdf-40b7-b1a6-1cae7795a806",
           "settings": {
             "product": "{{product}}",
             "colour": "#ff0000"
@@ -28,13 +28,11 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -45,8 +43,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -57,8 +54,7 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "share": {
           "type": "share",
@@ -108,13 +104,46 @@
         "padding_bottom": 12
       }
     },
+    "17605360137a8c7814": {
+      "type": "apps",
+      "blocks": {
+        "gift_card_balance_checker_gift_card_standard_EHnpCQ": {
+          "type": "shopify://apps/gift-card-balance-checker/blocks/gift-card-standard/f3ad7af0-d84f-4a94-8d83-f908013a5fdc",
+          "settings": {
+            "ui_style": "modern",
+            "title": "Check Gift Card Balance",
+            "title_color": "#000000",
+            "container_border_color": "#000000",
+            "container_background_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+            "input_title": "Enter Gift Card last 4 digits:",
+            "input_placeholder": "Enter Your Code",
+            "input_button": "Check Balance",
+            "input_button_color": "#ffffff",
+            "input_button_background_color": "#000000",
+            "input_border_color": "#000000",
+            "input_border_radius": 8,
+            "button_border_radius": 8,
+            "gift_card_background_color": "linear-gradient(180deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1) 100%)",
+            "gift_card_text_color": "#000000",
+            "gift_card_border_color": "#000000",
+            "container_margin_top": 10,
+            "container_margin_bottom": 10
+          }
+        }
+      },
+      "block_order": [
+        "gift_card_balance_checker_gift_card_standard_EHnpCQ"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "17220044144b87d623": {
       "type": "apps",
       "blocks": {
         "vitals_ub_product_bundles_dBahii": {
-          "type": "shopify:\/\/apps\/vitals\/blocks\/ub-product-bundles\/aeb48102-2a5a-4f39-bdbd-d8d49f4e20b8",
-          "settings": {
-          }
+          "type": "shopify://apps/vitals/blocks/ub-product-bundles/aeb48102-2a5a-4f39-bdbd-d8d49f4e20b8",
+          "settings": {}
         }
       },
       "block_order": [
@@ -148,7 +177,7 @@
         "heading": "See for yourself",
         "heading_size": "h1",
         "enable_video_looping": false,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
         "color_scheme": "",
@@ -159,6 +188,7 @@
   },
   "order": [
     "main",
+    "17605360137a8c7814",
     "17220044144b87d623",
     "related-products",
     "video_a8aan6"
